@@ -1,0 +1,644 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FSQ NA — new standards to review</title>
+<style>
+ body{font-family:Segoe UI,Arial,sans-serif;color:#1a1a1a;line-height:1.5;max-width:900px;margin:24px auto;padding:0 18px;}
+ h1{font-size:24px;color:#0d3d2a;} h2{font-size:19px;color:#0d3d2a;border-bottom:1px solid #ddd;padding-bottom:4px;margin-top:28px;}
+ h3{font-size:15px;margin:18px 0 6px;} ul{margin:6px 0 14px;padding-left:20px;} li{margin:3px 0;}
+ a{color:#1155cc;} hr{border:none;border-top:1px solid #ddd;margin:20px 0;} em{color:#555;}
+</style></head><body><h1>New standards for review — FSQ NA website (for Darío)</h1>
+<p><strong>Prepared 2026-07-23 for Darío Manzano.</strong> These are the **58 new standards / regulations /</p>
+<p>frameworks** that were proposed as NA additions (the green "NA · NEW" chips) and were</p>
+<p><strong>stripped</strong> from the go-live-minimal site so it could ship on original FSQ content only.</p>
+<p>This list is so you can review and <strong>add them back one by one</strong> into the bare site once each</p>
+<p>is confirmed against real staff capability.</p>
+<p><strong>How this was built:</strong> each entry was researched this session from the issuing body's</p>
+<p>official page (ISO, IEC, RTCA/EUROCAE, FDA, EUR-Lex, NIST, etc.). Links are the source. ISO/IEC/</p>
+<p>CENELEC/RTCA links point to the official <em>catalogue</em> page (the standards themselves are</p>
+<p>paywalled — that landing page is the authoritative reference). A free explainer is given as</p>
+<p>"Summary link" where useful.</p>
+<p><strong>⚠ Verify-before-publishing flags</strong> (research surfaced uncertainty or very recent change):</p>
+<ul>
+<li><strong>IMDRF cybersecurity guidance</strong> — the imdrf.org server timed out during research; the link</li>
+</ul>
+<p>  was confirmed via search index but should be clicked before publishing.</p>
+<ul>
+<li><strong>IEC 63452 (rail cyber)</strong> — still an in-development IEC project, not a published standard;</li>
+</ul>
+<p>  publication date not confirmed. Present as "emerging".</p>
+<ul>
+<li><strong>CMMC</strong> — Phase II requirements were <strong>suspended 13 Jul 2026</strong> pending review; Phase I self-</li>
+</ul>
+<p>  assessment remains. Recent — re-check status at publish time.</p>
+<ul>
+<li><strong>CCSPA (Canada)</strong> — reintroduced as Bill C-8; reported Royal Assent 15 Jun 2026; obligations</li>
+</ul>
+<p>  phase in by Governor-in-Council order. Re-check.</p>
+<ul>
+<li>Several ISO/IEC/UNECE/NHTSA official pages bot-block automated fetchers (return 403) but are</li>
+</ul>
+<p>  live in a normal browser — titles were matched via the search index.</p>
+<p>The eight groupings below match the site's "standards wall" rows.</p>
+<hr>
+<h2>1 · Functional safety core</h2>
+<h3>IEC 61511 (process safety, SIS)</h3>
+<ul>
+<li><strong>Full title:</strong> Functional safety — Safety instrumented systems for the process industry sector (Parts 1–3)</li>
+<li><strong>Issuing body:</strong> IEC</li>
+<li><strong>Status:</strong> 2nd edition, 2016 (Part 1:2016 + Amd 1:2017; Parts 2 &amp; 3:2016). Current.</li>
+<li><strong>What it is:</strong> The process-sector implementation of IEC 61508. Part 1 gives requirements for specifying, designing, installing, operating and maintaining a Safety Instrumented System (SIS) so it achieves/maintains a safe process state; Part 2 is application guidance; Part 3 covers hazard/risk analysis for SIL determination.</li>
+<li><strong>Why relevant:</strong> The definitive functional-safety standard for process-industry safety instrumented systems.</li>
+<li><strong>Official link:</strong> <a href="https://webstore.iec.ch/en/publication/24241">https://webstore.iec.ch/en/publication/24241</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.gt-engineering.it/en/technical-standards/en-iec-standards/iec-61511-gt-engineering/">https://www.gt-engineering.it/en/technical-standards/en-iec-standards/iec-61511-gt-engineering/</a></li>
+</ul>
+<h3>ISO 25119 (agricultural/forestry machinery functional safety)</h3>
+<ul>
+<li><strong>Full title:</strong> Tractors and machinery for agriculture and forestry — Safety-related parts of control systems (Parts 1–4)</li>
+<li><strong>Issuing body:</strong> ISO</li>
+<li><strong>Status:</strong> 2nd edition 2018 (Parts 1–4); Amendments 1 to Parts 3 &amp; 4 in 2020; confirmed 2024. Part 3 revision under development.</li>
+<li><strong>What it is:</strong> Four-part functional-safety standard for safety-related electrical/electronic/programmable control systems (SRP/CS) on agricultural and forestry machines: general design principles, concept phase, series development (HW/SW), and production/operation/modification. Defines Agricultural Performance Levels (AgPL).</li>
+<li><strong>Why relevant:</strong> The sector-specific functional-safety standard for ag/forestry machinery control systems.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/69026.html">https://www.iso.org/standard/69026.html</a></li>
+<li><strong>Summary link:</strong> <a href="https://en.wikipedia.org/wiki/ISO_25119">https://en.wikipedia.org/wiki/ISO_25119</a></li>
+</ul>
+<h3>ISO 18497 (autonomous agricultural machinery safety)</h3>
+<ul>
+<li><strong>Full title:</strong> Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery (Parts 1–4, 2024)</li>
+<li><strong>Issuing body:</strong> ISO</li>
+<li><strong>Status:</strong> Current is the four-part ISO 18497:2024 series, superseding the single-document ISO 18497:2018.</li>
+<li><strong>What it is:</strong> Safety requirements, verification means and information-for-use for ag machinery with automated/autonomous functions: machine design principles (Pt 1), obstacle-protection systems (Pt 2), autonomous operating zones (Pt 3), verification/validation (Pt 4).</li>
+<li><strong>Why relevant:</strong> The emerging international standard for autonomous agricultural-machine safety (driverless/robotic farm equipment).</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/82684.html">https://www.iso.org/standard/82684.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>Def Stan 00-56 (UK MoD safety management)</h3>
+<ul>
+<li><strong>Full title:</strong> Defence Standard 00-56 — Safety Management Requirements for Defence Systems (Part 1: Requirements; Part 2: Guidance)</li>
+<li><strong>Issuing body:</strong> UK Ministry of Defence (DStan)</li>
+<li><strong>Status:</strong> Part 1 Issue 8 and Part 2 Issue 6, both 14 Oct 2023 (supersede Issue 7/2017; some resellers still list older issues).</li>
+<li><strong>What it is:</strong> Contractual UK MoD standard setting requirements to achieve, assure and manage the safety of defence products/services/systems across the lifecycle. Proportionality is central (effort commensurate with risk/complexity). Part 1 mandatory; Part 2 guidance.</li>
+<li><strong>Why relevant:</strong> The mandatory safety-management standard for UK defence procurement.</li>
+<li><strong>Official link:</strong> <a href="https://www.gov.uk/guidance/uk-defence-standardization">https://www.gov.uk/guidance/uk-defence-standardization</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<hr>
+<h2>2 · Automotive</h2>
+<h3>UNECE R157 (ALKS — automated lane keeping)</h3>
+<ul>
+<li><strong>Full title:</strong> UN Regulation No. 157 — Uniform provisions concerning the approval of vehicles with regard to Automated Lane Keeping Systems (ALKS)</li>
+<li><strong>Issuing body:</strong> UNECE (WP.29)</li>
+<li><strong>Status:</strong> In force since 22 Jan 2021; amended for higher speeds (to 130 km/h) and heavy vehicles.</li>
+<li><strong>What it is:</strong> Binding UN type-approval regulation for Level 3 ALKS (system takes primary control on motorways in defined conditions): system safety, HMI/takeover demands, Operational Design Domain, event data recording (DSSAD), cybersecurity/software.</li>
+<li><strong>Why relevant:</strong> Required to homologate/audit L3 automated-driving vehicles for markets recognising UN regulations.</li>
+<li><strong>Official link:</strong> <a href="https://unece.org/transport/documents/2021/03/standards/un-regulation-no-157-automated-lane-keeping-systems-alks">https://unece.org/transport/documents/2021/03/standards/un-regulation-no-157-automated-lane-keeping-systems-alks</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>ISO 24089 (software update engineering)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO 24089:2023 — Road vehicles — Software update engineering</li>
+<li><strong>Issuing body:</strong> ISO (with SAE)</li>
+<li><strong>Status:</strong> Published 2023; Amendment 1:2024.</li>
+<li><strong>What it is:</strong> Requirements/recommendations for vehicle software-update engineering at organizational and project levels — vehicles, systems, ECUs, infrastructure, update-package assembly/deployment — with safety/cyber risk management for updates.</li>
+<li><strong>Why relevant:</strong> The engineering standard underpinning UN R156 (SUMS) compliance.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/77796.html">https://www.iso.org/standard/77796.html</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.tuvsud.com/en-us/industries/mobility-and-automotive/automotive-and-oem/autonomous-driving/iso-24089-standard-for-automotive-software-update-engineering">https://www.tuvsud.com/en-us/industries/mobility-and-automotive/automotive-and-oem/autonomous-driving/iso-24089-standard-for-automotive-software-update-engineering</a></li>
+</ul>
+<h3>ISO/PAS 8800 (road vehicles safety &amp; AI)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/PAS 8800:2024 — Road vehicles — Safety and artificial intelligence</li>
+<li><strong>Issuing body:</strong> ISO</li>
+<li><strong>Status:</strong> Published Dec 2024. A PAS (Publicly Available Specification), not yet a full IS.</li>
+<li><strong>What it is:</strong> Addresses safety-related behaviour arising from AI-element insufficiencies/errors in series-production road vehicles: AI safety lifecycle, assurance arguments, data, safety analysis, post-deployment measures. Complements ISO 26262 and ISO 21448 (SOTIF).</li>
+<li><strong>Why relevant:</strong> Recognised framework to argue AI safety for ML perception/decision functions alongside functional-safety standards.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/83303.html">https://www.iso.org/standard/83303.html</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.ul.com/sis/blog/safety-related-systems-road-vehicles-artificial-intelligence-are-addressed-isopas-88002024">https://www.ul.com/sis/blog/safety-related-systems-road-vehicles-artificial-intelligence-are-addressed-isopas-88002024</a></li>
+</ul>
+<h3>ANSI/UL 4600 (autonomous product safety case)</h3>
+<ul>
+<li><strong>Full title:</strong> ANSI/UL 4600 — Standard for Safety for the Evaluation of Autonomous Products</li>
+<li><strong>Issuing body:</strong> UL Standards &amp; Engagement (ANSI-approved)</li>
+<li><strong>Status:</strong> Edition 3, 17 Mar 2023 (Ed.1 2020, Ed.2 2022).</li>
+<li><strong>What it is:</strong> Goal-based, technology-agnostic standard for building/assessing a safety case for products operating without human supervision (AVs, autonomous trucks, mining/agri): safety-case construction, hazard/risk analysis, testing, tool qualification, autonomy validation, data integrity, HMI, metrics.</li>
+<li><strong>Why relevant:</strong> The leading North American standard for structuring/evaluating an autonomous-product safety case.</li>
+<li><strong>Official link:</strong> <a href="https://www.shopulstandards.com/ProductDetail.aspx?productId=UL4600_3_S_20230317">https://www.shopulstandards.com/ProductDetail.aspx?productId=UL4600_3_S_20230317</a></li>
+<li><strong>Summary link:</strong> <a href="https://users.ece.cmu.edu/~koopman/ul4600/index.html">https://users.ece.cmu.edu/~koopman/ul4600/index.html</a></li>
+</ul>
+<h3>MISRA (C/C++ coding guidelines)</h3>
+<ul>
+<li><strong>Full title:</strong> MISRA C:2025 — Guidelines for the use of the C language in critical systems; MISRA C++:2023 — Guidelines for the use of C++:17 in critical systems</li>
+<li><strong>Issuing body:</strong> The MISRA Consortium (originated with MIRA Ltd, UK)</li>
+<li><strong>Status:</strong> MISRA C:2025 (Mar 2025, ~224 guidelines); MISRA C++:2023 (Oct 2023, targets C++17). Earlier editions remain for legacy use.</li>
+<li><strong>What it is:</strong> Coding guidelines restricting C/C++ to safer, analyzable subsets to reduce undefined behaviour and defects in safety/security-critical embedded software; referenced by functional-safety standards, enforced via static analysis.</li>
+<li><strong>Why relevant:</strong> Embedded safety-critical software is routinely required to demonstrate MISRA compliance.</li>
+<li><strong>Official link:</strong> <a href="https://misra.org.uk/">https://misra.org.uk/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>NHTSA cybersecurity best practices (vehicles)</h3>
+<ul>
+<li><strong>Full title:</strong> Cybersecurity Best Practices for the Safety of Modern Vehicles (2022 update)</li>
+<li><strong>Issuing body:</strong> US NHTSA (US DOT)</li>
+<li><strong>Status:</strong> Final updated edition Sep 2022 (supersedes 2016). Non-binding voluntary guidance.</li>
+<li><strong>What it is:</strong> Risk-based guidance on vehicle-lifecycle cybersecurity management for all organizations designing/building vehicles and their electronics/software — 45 general + 23 technical best practices (secure SDLC, ECU security, external ports, diagnostic-tool security).</li>
+<li><strong>Why relevant:</strong> The reference US federal guidance for benchmarking North-American automotive cybersecurity posture.</li>
+<li><strong>Official link:</strong> <a href="https://www.nhtsa.gov/document/cybersecurity-best-practices-safety-modern-vehicles-2022">https://www.nhtsa.gov/document/cybersecurity-best-practices-safety-modern-vehicles-2022</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<hr>
+<h2>3 · Medical</h2>
+<h3>EU IVDR 2017/746 (in-vitro diagnostic regulation)</h3>
+<ul>
+<li><strong>Full title:</strong> Regulation (EU) 2017/746 on in vitro diagnostic medical devices (repealing Directive 98/79/EC and Decision 2010/227/EU)</li>
+<li><strong>Issuing body:</strong> European Parliament &amp; Council (administered via the European Commission)</li>
+<li><strong>Status:</strong> In force; date of application 26 May 2022, with phased transitional provisions.</li>
+<li><strong>What it is:</strong> EU framework governing placing IVDs (lab tests, assays, self-tests, companion diagnostics) on the market: risk-based classification, conformity assessment, clinical/performance evidence, notified-body oversight, technical documentation, UDI/traceability, post-market performance follow-up.</li>
+<li><strong>Why relevant:</strong> Mandatory for EU market access of IVDs — guides conformity assessment and CE-marking.</li>
+<li><strong>Official link:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R0746">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R0746</a></li>
+<li><strong>Summary link:</strong> <a href="https://health.ec.europa.eu/medical-devices-sector/new-regulations_en">https://health.ec.europa.eu/medical-devices-sector/new-regulations_en</a></li>
+</ul>
+<h3>IEC 62304 (medical device software lifecycle)</h3>
+<ul>
+<li><strong>Full title:</strong> Medical device software — Software life cycle processes</li>
+<li><strong>Issuing body:</strong> IEC</li>
+<li><strong>Status:</strong> In force; consolidated Edition 1.1 = IEC 62304:2006+AMD1:2015 CSV.</li>
+<li><strong>What it is:</strong> Common framework of lifecycle processes for safe design/maintenance of medical-device software — software risk management, planning, architecture, verification, configuration/change management, problem resolution — scaled by software safety class (A/B/C).</li>
+<li><strong>Why relevant:</strong> The internationally recognized baseline for a controlled, safety-oriented medical-software lifecycle; core to submissions.</li>
+<li><strong>Official link:</strong> <a href="https://webstore.iec.ch/en/publication/22794">https://webstore.iec.ch/en/publication/22794</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>IEC 60601-1 (medical electrical equipment — basic safety)</h3>
+<ul>
+<li><strong>Full title:</strong> Medical electrical equipment — Part 1: General requirements for basic safety and essential performance</li>
+<li><strong>Issuing body:</strong> IEC</li>
+<li><strong>Status:</strong> In force; consolidated Edition 3.2 = IEC 60601-1:2005+AMD1:2012+AMD2:2020 CSV.</li>
+<li><strong>What it is:</strong> Foundational "general" safety standard for medical electrical equipment/systems — electrical, mechanical, thermal, radiation hazards; shock protection; documented risk management. Supplemented by collateral (60601-1-x) and particular (60601-2-x) standards.</li>
+<li><strong>Why relevant:</strong> Near-universal prerequisite for market access of powered medical devices worldwide.</li>
+<li><strong>Official link:</strong> <a href="https://webstore.iec.ch/en/publication/67497">https://webstore.iec.ch/en/publication/67497</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>IEC 60601-4-5 (medical device cybersecurity)</h3>
+<ul>
+<li><strong>Full title:</strong> Medical electrical equipment — Part 4-5: Guidance and interpretation — Safety-related technical security specifications</li>
+<li><strong>Issuing body:</strong> IEC</li>
+<li><strong>Status:</strong> Published 2021. <strong>Note: a Technical Report (TR), i.e. informative guidance, not a normative standard; excludes IVD devices.</strong></li>
+<li><strong>What it is:</strong> Technical security specifications for medical devices on medical IT-networks. Building on IEC 62443, it defines security capability levels (SL-C) and the technical capabilities to reach a given level, so the manufacturer/operator security split can be assessed and communicated.</li>
+<li><strong>Why relevant:</strong> A concrete, testable capability framework for building and evidencing device cybersecurity.</li>
+<li><strong>Official link:</strong> <a href="https://webstore.iec.ch/en/publication/64703">https://webstore.iec.ch/en/publication/64703</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>IEC 81001-5-1 (health software security lifecycle)</h3>
+<ul>
+<li><strong>Full title:</strong> Health software and health IT systems safety, effectiveness and security — Part 5-1: Security — Activities in the product life cycle</li>
+<li><strong>Issuing body:</strong> IEC (jointly with ISO)</li>
+<li><strong>Status:</strong> Published 2021; cited by the EU as a candidate harmonized cybersecurity standard under the medical device regulations.</li>
+<li><strong>What it is:</strong> Defines security activities/tasks across the health-software lifecycle (development, maintenance, post-market), aligned with IEC 62443-4-1: security risk management, secure design/implementation, verification, coordinated vulnerability handling.</li>
+<li><strong>Why relevant:</strong> The emerging reference secure-development-lifecycle standard for medical/health software, increasingly expected by regulators.</li>
+<li><strong>Official link:</strong> <a href="https://webstore.iec.ch/en/publication/63293">https://webstore.iec.ch/en/publication/63293</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>FDA §524B (premarket cybersecurity for cyber devices)</h3>
+<ul>
+<li><strong>Full title:</strong> Section 524B FD&amp;C Act, "Ensuring Cybersecurity of Devices" (added by the Consolidated Appropriations Act, 2023). Guidance: "Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions."</li>
+<li><strong>Issuing body:</strong> US FDA (statute by US Congress; guidance by FDA/CDRH)</li>
+<li><strong>Status:</strong> Statutory requirement in force since 29 Mar 2023; implementing final guidance issued 27 Jun 2025.</li>
+<li><strong>What it is:</strong> Requires sponsors of a "cyber device" to include cybersecurity information in premarket submissions: post-market vulnerability monitoring/disclosure plan, reasonable-assurance security processes, patch/update procedures, and an SBOM.</li>
+<li><strong>Why relevant:</strong> A mandatory US market-access gate for connected medical devices.</li>
+<li><strong>Official link:</strong> <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-management-system-considerations-and-content-premarket">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-management-system-considerations-and-content-premarket</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity">https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity</a></li>
+</ul>
+<h3>FDA §515C / PCCP (predetermined change control for AI/ML)</h3>
+<ul>
+<li><strong>Full title:</strong> Section 515C FD&amp;C Act ("Predetermined change control plans for devices"). Guidance: "Marketing Submission Recommendations for a Predetermined Change Control Plan for AI-Enabled Device Software Functions."</li>
+<li><strong>Issuing body:</strong> US FDA (statutory authority via FDORA 2022; guidance by FDA/CDRH)</li>
+<li><strong>Status:</strong> Final guidance issued Dec 2024 (supersedes Apr 2023 draft). §515C in force.</li>
+<li><strong>What it is:</strong> A PCCP lets a manufacturer pre-specify future modifications to an AI-enabled device software function plus the methods to develop/validate/implement them and their impact. Once FDA authorizes it, those changes can be made without a new marketing submission.</li>
+<li><strong>Why relevant:</strong> The FDA pathway for updating AI/ML medical software post-clearance.</li>
+<li><strong>Official link:</strong> <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>FDA QMSR (21 CFR Part 820)</h3>
+<ul>
+<li><strong>Full title:</strong> Medical Devices; Quality System Regulation Amendments — establishing the Quality Management System Regulation (QMSR), 21 CFR Part 820</li>
+<li><strong>Issuing body:</strong> US FDA (CDRH)</li>
+<li><strong>Status:</strong> Final rule 2 Feb 2024; <strong>effective 2 Feb 2026.</strong> In force.</li>
+<li><strong>What it is:</strong> Amends device CGMP requirements, <strong>incorporating ISO 13485:2016 by reference</strong> as the QMS baseline, plus FDA-specific provisions; renames "Quality System Regulation" to "Quality Management System Regulation." FDA aligned its inspection program (CP 7382.850) from Feb 2026.</li>
+<li><strong>Why relevant:</strong> Device makers must transition existing Part 820 quality systems to the ISO 13485-harmonized QMSR.</li>
+<li><strong>Official link:</strong> <a href="https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr">https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.federalregister.gov/documents/2024/02/02/2024-01709/medical-devices-quality-system-regulation-amendments">https://www.federalregister.gov/documents/2024/02/02/2024-01709/medical-devices-quality-system-regulation-amendments</a></li>
+</ul>
+<h3>MDCG 2019-16 (EU medical device cybersecurity guidance)</h3>
+<ul>
+<li><strong>Full title:</strong> MDCG 2019-16 — Guidance on Cybersecurity for medical devices (Rev.1)</li>
+<li><strong>Issuing body:</strong> EU Medical Device Coordination Group (MDCG), under the European Commission</li>
+<li><strong>Status:</strong> Published Dec 2019; Rev.1 Jul 2020. In force (non-binding guidance).</li>
+<li><strong>What it is:</strong> Interprets the cybersecurity requirements of Annex I of the MDR (EU) 2017/745 and IVDR: pre-market and post-market aspects across secure design, manufacture and post-market surveillance (vulnerability/incident handling in the technical documentation).</li>
+<li><strong>Why relevant:</strong> Used to meet EU MDR/IVDR cybersecurity conformity expectations for connected/software devices.</li>
+<li><strong>Official link:</strong> <a href="https://health.ec.europa.eu/system/files/2022-01/md_cybersecurity_en.pdf">https://health.ec.europa.eu/system/files/2022-01/md_cybersecurity_en.pdf</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>Health Canada SOR/98-282 (Medical Devices Regulations)</h3>
+<ul>
+<li><strong>Full title:</strong> Medical Devices Regulations (SOR/98-282), made under the Food and Drugs Act</li>
+<li><strong>Issuing body:</strong> Government of Canada / Health Canada</li>
+<li><strong>Status:</strong> Registered 7 May 1998; in force; consolidated text current to 2026 (last amended 1 Jan 2026).</li>
+<li><strong>What it is:</strong> Core Canadian regulation governing sale/import/advertisement of medical devices. Four risk classes (I–IV) via Schedule I rules, with licensing, QMS (MDSAP/ISO 13485), labelling and post-market obligations scaled to class.</li>
+<li><strong>Why relevant:</strong> The foundational legal framework to license and maintain devices on the Canadian market.</li>
+<li><strong>Official link:</strong> <a href="https://laws-lois.justice.gc.ca/eng/regulations/sor-98-282/">https://laws-lois.justice.gc.ca/eng/regulations/sor-98-282/</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices.html">https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices.html</a></li>
+</ul>
+<h3>Health Canada PCCP (ML-enabled devices)</h3>
+<ul>
+<li><strong>Full title:</strong> Pre-market guidance for machine learning-enabled medical devices (introducing the PCCP mechanism); with the joint international "Predetermined change control plans for machine learning-enabled medical devices" guiding principles</li>
+<li><strong>Issuing body:</strong> Health Canada (guiding principles jointly with US FDA and UK MHRA)</li>
+<li><strong>Status:</strong> Published and in effect (guidance, non-binding).</li>
+<li><strong>What it is:</strong> A PCCP lets a manufacturer pre-specify, at licensing, changes to an MLMD (within its original intended use) plus verification/validation methods and mechanisms to detect/revert/stop a failing change — allowing planned ML updates without fresh authorization each time.</li>
+<li><strong>Why relevant:</strong> Lets AI/ML device makers update models post-authorization within a pre-approved, risk-managed envelope.</li>
+<li><strong>Official link:</strong> <a href="https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/pre-market-guidance-machine-learning-enabled-medical-devices.html">https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/pre-market-guidance-machine-learning-enabled-medical-devices.html</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/good-machine-learning-practice-medical-device-development/predetermined-change-control-plans-machine-learning-enabled-medical-devices.html">https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/good-machine-learning-practice-medical-device-development/predetermined-change-control-plans-machine-learning-enabled-medical-devices.html</a></li>
+</ul>
+<h3>GMLP (Good Machine Learning Practice — FDA/HC/MHRA)</h3>
+<ul>
+<li><strong>Full title:</strong> Good Machine Learning Practice for Medical Device Development: Guiding Principles</li>
+<li><strong>Issuing body:</strong> Jointly US FDA, Health Canada, UK MHRA</li>
+<li><strong>Status:</strong> Published Oct 2021; in effect (guiding principles, non-binding).</li>
+<li><strong>What it is:</strong> Ten guiding principles for developing safe, effective, high-quality AI/ML-enabled devices — multidisciplinary expertise, good software/data management, representative datasets, model design/validation, human-AI team performance, lifecycle/post-market monitoring.</li>
+<li><strong>Why relevant:</strong> A shared FDA/HC/MHRA reference framework for advising AI/ML developers across multiple markets.</li>
+<li><strong>Official link:</strong> <a href="https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles">https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/good-machine-learning-practice-medical-device-development.html">https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/good-machine-learning-practice-medical-device-development.html</a></li>
+</ul>
+<h3>IMDRF cybersecurity guidance ⚠ (verify link before publishing)</h3>
+<ul>
+<li><strong>Full title:</strong> Principles and Practices for Medical Device Cybersecurity (IMDRF/CYBER WG/N60FINAL:2020)</li>
+<li><strong>Issuing body:</strong> International Medical Device Regulators Forum (IMDRF), Cybersecurity WG</li>
+<li><strong>Status:</strong> Final Apr 2020; in effect. Complemented by N70 (legacy devices) and N73 (SBOM), both 2023.</li>
+<li><strong>What it is:</strong> IMDRF's harmonized, total-product-lifecycle approach to device cybersecurity — shared stakeholder responsibilities, definitions, information-sharing, pre-market and post-market practices.</li>
+<li><strong>Why relevant:</strong> The international baseline to align a device's cybersecurity program across FDA, EU, Health Canada and other IMDRF members at once.</li>
+<li><strong>Official link:</strong> <a href="https://www.imdrf.org/documents/principles-and-practices-medical-device-cybersecurity">https://www.imdrf.org/documents/principles-and-practices-medical-device-cybersecurity</a> — direct PDF: <a href="https://www.imdrf.org/sites/default/files/docs/imdrf/final/technical/imdrf-tech-200318-pp-mdc-n60.pdf">https://www.imdrf.org/sites/default/files/docs/imdrf/final/technical/imdrf-tech-200318-pp-mdc-n60.pdf</a>  <em>(imdrf.org timed out during research — click to confirm)</em></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>NMPA pathway (China)</h3>
+<ul>
+<li><strong>Full title:</strong> China medical device registration/approval pathway administered by the NMPA under the Regulations for the Supervision and Administration of Medical Devices (State Council Decree No. 739)</li>
+<li><strong>Issuing body:</strong> China NMPA (technical review by CMDE)</li>
+<li><strong>Status:</strong> In force; governing Decree No. 739 effective 1 Jun 2021.</li>
+<li><strong>What it is:</strong> Route to place a device on the Chinese market. Class I (filing), Class II/III (full dossier + technical review; Class III typically clinical trials). Foreign makers need a China-based agent, home-country approval proof, Chinese-language dossier, and generally in-country type testing for Class II/III. Expedited routes exist (Innovation, Priority, Emergency).</li>
+<li><strong>Why relevant:</strong> Guides manufacturers through China's distinct classification, local-testing, local-agent and dossier requirements.</li>
+<li><strong>Official link:</strong> <a href="https://english.nmpa.gov.cn/medicaldevices.html">https://english.nmpa.gov.cn/medicaldevices.html</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.emergobyul.com/resources/chinese-nmpa-regulatory-approval-process-medical-and-ivd-devices">https://www.emergobyul.com/resources/chinese-nmpa-regulatory-approval-process-medical-and-ivd-devices</a></li>
+</ul>
+<hr>
+<h2>4 · Aerospace</h2>
+<h3>DO-326A / ED-202A (airworthiness security process)</h3>
+<ul>
+<li><strong>Full title:</strong> Airworthiness Security Process Specification</li>
+<li><strong>Issuing body:</strong> RTCA (DO-326A) / EUROCAE (ED-202A) — SC-216 / WG-72</li>
+<li><strong>Status:</strong> In force; published 2014. A newer DO-326B/ED-202B exists; the "A" revision is the widely-referenced certification baseline.</li>
+<li><strong>What it is:</strong> Establishes the airworthiness-security process to handle the information-security threat to aircraft safety — identifying, assessing and mitigating Intentional Unauthorized Electronic Interaction (IUEI) across development and certification. The anchor document the DO-356A methods and DO-355 continuing-airworthiness docs build on.</li>
+<li><strong>Why relevant:</strong> The foundational airworthiness-security process framework for aircraft cyber certification.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/security/">https://www.rtca.org/security/</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.eurocae.net/product/ed-202a-airworthiness-security-process-specification/">https://www.eurocae.net/product/ed-202a-airworthiness-security-process-specification/</a></li>
+</ul>
+<h3>DO-356A / ED-203A (airworthiness security methods)</h3>
+<ul>
+<li><strong>Full title:</strong> Airworthiness Security Methods and Considerations</li>
+<li><strong>Issuing body:</strong> RTCA / EUROCAE — SC-216 / WG-72</li>
+<li><strong>Status:</strong> In force; ED-203A published Jun 2018.</li>
+<li><strong>What it is:</strong> The concrete methods/techniques to show compliance with the DO-326A process — security risk assessment, security measures, assurance/refutation — supplying the "how" to the process framework's "what."</li>
+<li><strong>Why relevant:</strong> The practical methods reference to perform and evidence aircraft security risk assessments for certification.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/security/">https://www.rtca.org/security/</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.eurocae.net/product/ed-203a-airworthiness-security-methods-and-considerations/">https://www.eurocae.net/product/ed-203a-airworthiness-security-methods-and-considerations/</a></li>
+</ul>
+<h3>DO-355 / ED-204 (continuing airworthiness security)</h3>
+<ul>
+<li><strong>Full title:</strong> Information Security Guidance for Continuing Airworthiness</li>
+<li><strong>Issuing body:</strong> RTCA / EUROCAE — SC-216 / WG-72</li>
+<li><strong>Status:</strong> In force; current revision DO-355A / ED-204A (ED-204A Sep 2020). Referenced in FAA AC 119-1 and Order 8900.1.</li>
+<li><strong>What it is:</strong> Guidance for maintaining aircraft information security in operation and maintenance, for Design Approval Holders and operators — an acceptable means of compliance keeping in-service IUEI within acceptable safety levels.</li>
+<li><strong>Why relevant:</strong> Extends cyber-airworthiness support past type certification into fleet operations/maintenance.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/security/">https://www.rtca.org/security/</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.eurocae.net/product/ed-204a-information-security-guidance-for-continuing-airworthiness/">https://www.eurocae.net/product/ed-204a-information-security-guidance-for-continuing-airworthiness/</a></li>
+</ul>
+<h3>DO-330 (tool qualification)</h3>
+<ul>
+<li><strong>Full title:</strong> Software Tool Qualification Considerations</li>
+<li><strong>Issuing body:</strong> RTCA (EUROCAE ED-215)</li>
+<li><strong>Status:</strong> In force; published 2011 (DO-178C suite).</li>
+<li><strong>What it is:</strong> Objectives/guidance for qualifying software tools used in airborne-software development or verification, so a tool's output can be trusted without independent re-checking. Standalone, technology-independent; qualification level driven by the tool's error-insertion/detection potential.</li>
+<li><strong>Why relevant:</strong> Nearly every DO-178C/DO-278A program uses code generators/verification tools that must be qualified.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/do-178/">https://www.rtca.org/do-178/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>DO-331 (model-based development)</h3>
+<ul>
+<li><strong>Full title:</strong> Model-Based Development and Verification Supplement to DO-178C and DO-278A</li>
+<li><strong>Issuing body:</strong> RTCA (EUROCAE ED-218)</li>
+<li><strong>Status:</strong> In force; published 2011.</li>
+<li><strong>What it is:</strong> Modifies/adds to DO-178C/DO-278A objectives for model-based development/verification — how models are classified, developed, verified, traced, and how model coverage/simulation credit is handled. Applied together with (not instead of) the core standard.</li>
+<li><strong>Why relevant:</strong> Modern avionics teams develop with model-based tools (Simulink/SCADE) needing DO-331.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/do-178/">https://www.rtca.org/do-178/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>DO-333 (formal methods)</h3>
+<ul>
+<li><strong>Full title:</strong> Formal Methods Supplement to DO-178C and DO-278A</li>
+<li><strong>Issuing body:</strong> RTCA (EUROCAE ED-216)</li>
+<li><strong>Status:</strong> In force; published 2011.</li>
+<li><strong>What it is:</strong> Extends DO-178C/DO-278A to let formal methods satisfy certification objectives, including as a verification means replacing certain testing; defines acceptable formal analysis and how it earns credit.</li>
+<li><strong>Why relevant:</strong> Lets clients claim certification credit for formal verification in high-DAL software.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/do-178/">https://www.rtca.org/do-178/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>DO-278A (ground/CNS-ATM software)</h3>
+<ul>
+<li><strong>Full title:</strong> Software Integrity Assurance Considerations for CNS/ATM Systems</li>
+<li><strong>Issuing body:</strong> RTCA (EUROCAE ED-109A)</li>
+<li><strong>Status:</strong> In force; published 2011 (the ground-system counterpart to DO-178C).</li>
+<li><strong>What it is:</strong> Objectives to assure ground-based CNS/ATM software has the integrity needed for safety-related use — the non-airborne analogue of DO-178C, scaled by Assurance Level; the same supplements (DO-330/331/332/333) extend it.</li>
+<li><strong>Why relevant:</strong> Serves ANSP/ATM and ground-infrastructure clients whose software falls under DO-278A.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/do-178/">https://www.rtca.org/do-178/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>DO-160 (environmental conditions &amp; test)</h3>
+<ul>
+<li><strong>Full title:</strong> Environmental Conditions and Test Procedures for Airborne Equipment</li>
+<li><strong>Issuing body:</strong> RTCA (EUROCAE ED-14)</li>
+<li><strong>Status:</strong> In force; current DO-160G (2010) + Change 1; DO-160H planned Mar 2026.</li>
+<li><strong>What it is:</strong> Standardized environmental test conditions/procedures to show airborne equipment performs under aircraft environmental and EMI conditions (temperature, altitude, vibration, humidity, fluids, RF, lightning, power). Each equipment type is tested against a tailored subset of "environmental categories."</li>
+<li><strong>Why relevant:</strong> Near-universal environmental-qualification requirement for airborne equipment approval.</li>
+<li><strong>Official link:</strong> <a href="https://www.rtca.org/do-160/">https://www.rtca.org/do-160/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>FAA ASISP (aircraft systems information security) ⚠ (proposed rule)</h3>
+<ul>
+<li><strong>Full title:</strong> Aircraft Systems Information Security / Protection (ASISP) — rulemaking "Equipment, Systems, and Network Information Security Protection" (RIN 2120-AL94)</li>
+<li><strong>Issuing body:</strong> FAA</li>
+<li><strong>Status:</strong> NPRM published in the Federal Register 21 Aug 2024 (comments closed 21 Oct 2024) — a <strong>proposed rule, not yet finalized</strong>.</li>
+<li><strong>What it is:</strong> FAA research/policy/rulemaking to protect aircraft systems/networks from IUEI. Historically applied via case-by-case special conditions on connected aircraft; being consolidated into a proposed rule with standardized info-security requirements for new transport aircraft/engines/propellers, aligning US practice with DO-326A/DO-356A/DO-355.</li>
+<li><strong>Why relevant:</strong> Prepares US-market clients for the shift from ad-hoc special conditions to a formal FAA aircraft-cybersecurity rule.</li>
+<li><strong>Official link:</strong> <a href="https://www.faa.gov/headquartersoffices/ang/aircraft-systems-information-security-protection-asisp-rd">https://www.faa.gov/headquartersoffices/ang/aircraft-systems-information-security-protection-asisp-rd</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.federalregister.gov/documents/2024/08/21/2024-17916/equipment-systems-and-network-information-security-protection">https://www.federalregister.gov/documents/2024/08/21/2024-17916/equipment-systems-and-network-information-security-protection</a></li>
+</ul>
+<h3>EASA AI / learning assurance</h3>
+<ul>
+<li><strong>Full title:</strong> EASA Artificial Intelligence Concept Paper, Issue 2 — Guidance for Level 1 &amp; 2 machine-learning applications</li>
+<li><strong>Issuing body:</strong> EASA</li>
+<li><strong>Status:</strong> Issue 2 published Mar 2024; concept-paper/guidance stage under the EASA AI Roadmap; Issue 3 in development.</li>
+<li><strong>What it is:</strong> EASA's anticipatory guidance for approving AI/ML in aviation safety applications — Level 1 (human augmentation) and Level 2 (human-AI teaming) — developing "learning assurance" (the ML analogue of development assurance), AI explainability/trustworthiness, and ethics-based assessment.</li>
+<li><strong>Why relevant:</strong> Used to plan a certifiable AI development/assurance approach for avionics/operational ML.</li>
+<li><strong>Official link:</strong> <a href="https://www.easa.europa.eu/en/document-library/general-publications/easa-artificial-intelligence-concept-paper-issue-2">https://www.easa.europa.eu/en/document-library/general-publications/easa-artificial-intelligence-concept-paper-issue-2</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.easa.europa.eu/en/newsroom-and-events/news/easa-publishes-artificial-intelligence-concept-paper-issue-2-guidance">https://www.easa.europa.eu/en/newsroom-and-events/news/easa-publishes-artificial-intelligence-concept-paper-issue-2-guidance</a></li>
+</ul>
+<hr>
+<h2>5 · Rail</h2>
+<h3>IEC 63452 (railway cybersecurity — emerging) ⚠ (in development)</h3>
+<ul>
+<li><strong>Full title:</strong> Railway applications — Cybersecurity (IEC TC 9 project PT 63452)</li>
+<li><strong>Issuing body:</strong> IEC, TC 9, project team PT 63452</li>
+<li><strong>Status:</strong> <strong>Emerging / under development</strong> — active IEC project, not yet a published standard; the international successor track to CENELEC TS 50701. Publication date not confirmed.</li>
+<li><strong>What it is:</strong> Intended to be the first global railway-cybersecurity International Standard across IEC TC 9 scope (high-speed, mainline, freight, urban/metro), internationalising TS 50701 and adapting IEC 62443 — risk-based cybersecurity requirements and lifecycle roles/responsibilities.</li>
+<li><strong>Why relevant:</strong> Rail operators/suppliers need to prepare for the incoming global rail-cyber baseline (advise on TS 50701 today, IEC 63452 transition).</li>
+<li><strong>Official link:</strong> <a href="https://www.iec.ch/dyn/www/f?p=103:14:405172316768605::::FSP_ORG_ID:28802">https://www.iec.ch/dyn/www/f?p=103:14:405172316768605::::FSP_ORG_ID:28802</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.alstom.com/press-releases-news/2024/3/towards-first-railway-cybersecurity-international-standard-why-standards-are-important-secure-railways">https://www.alstom.com/press-releases-news/2024/3/towards-first-railway-cybersecurity-international-standard-why-standards-are-important-secure-railways</a></li>
+</ul>
+<h3>EN 50159 (safety-related communication)</h3>
+<ul>
+<li><strong>Full title:</strong> EN 50159:2010 (+A1:2020) — Railway applications — Safety-related communication in transmission systems</li>
+<li><strong>Issuing body:</strong> CENELEC (link is the official BSI national adoption, BS EN 50159)</li>
+<li><strong>Status:</strong> In force; 2010 + A1:2020 (supersedes EN 50159-1/-2:2001).</li>
+<li><strong>What it is:</strong> Requirements for safety-related electronic systems using transmission systems — defensive techniques against communication threats (repetition, deletion, insertion, re-sequencing, corruption, delay, masquerade) so a required SIL can be achieved over the channel; closed and open transmission systems.</li>
+<li><strong>Why relevant:</strong> The reference standard for proving safe data communication in rail signalling; complements rail cyber (TS 50701/IEC 63452).</li>
+<li><strong>Official link:</strong> <a href="https://knowledge.bsigroup.com/products/railway-applications-communication-signalling-and-processing-systems-safety-related-communication-in-transmission-systems-1">https://knowledge.bsigroup.com/products/railway-applications-communication-signalling-and-processing-systems-safety-related-communication-in-transmission-systems-1</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>EN 50155 (rolling-stock electronic equipment)</h3>
+<ul>
+<li><strong>Full title:</strong> EN 50155:2021 — Railway applications — Rolling stock — Electronic equipment</li>
+<li><strong>Issuing body:</strong> CENELEC (link is the official BSI national adoption, BS EN 50155)</li>
+<li><strong>Status:</strong> In force; current edition 31 Jul 2021.</li>
+<li><strong>What it is:</strong> Requirements for design, manufacture, documentation and testing of on-board electronic equipment (control, regulation, protection, diagnostics, energy supply), including HW of safety-related equipment — operating conditions, HW/SW requirements, integration/testing.</li>
+<li><strong>Why relevant:</strong> The baseline conformity standard for electronic hardware on rail vehicles.</li>
+<li><strong>Official link:</strong> <a href="https://knowledge.bsigroup.com/products/railway-applications-rolling-stock-electronic-equipment-1">https://knowledge.bsigroup.com/products/railway-applications-rolling-stock-electronic-equipment-1</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<hr>
+<h2>6 · Machinery &amp; industrial</h2>
+<h3>ISO 12100 (machinery risk assessment)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO 12100:2010 — Safety of machinery — General principles for design — Risk assessment and risk reduction</li>
+<li><strong>Issuing body:</strong> ISO</li>
+<li><strong>Status:</strong> In force; 2010 (flagged to be revised). Consolidated the former 12100-1/-2 and 14121-1.</li>
+<li><strong>What it is:</strong> Basic terminology, principles and methodology for machine-design safety — identifying hazards, estimating/evaluating risks across the machine life cycle, eliminating hazards or achieving adequate risk reduction. The type-A "basic safety standard" underpinning type-B and type-C machine standards.</li>
+<li><strong>Why relevant:</strong> The master framework for machinery risk assessment underpinning CE marking — the entry point to machinery compliance.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/51528.html">https://www.iso.org/standard/51528.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>ISO 10218 (industrial robot safety)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO 10218-1:2025 (industrial robots) &amp; ISO 10218-2:2025 (robot applications and cells)</li>
+<li><strong>Issuing body:</strong> ISO</li>
+<li><strong>Status:</strong> In force; 2025 revision — Part 1 Ed.3 (Feb 2025), Part 2 Ed.2 (2025), replacing the 2011 editions. <strong>The 2025 revision absorbs the collaborative-operation content formerly in ISO/TS 15066.</strong></li>
+<li><strong>What it is:</strong> Part 1 — inherently safe design, protective measures and information for use of industrial robots (for robot manufacturers). Part 2 — integration/commissioning/operation/maintenance of robot applications and cells (for integrators).</li>
+<li><strong>Why relevant:</strong> The core global safety standards for industrial and collaborative robots.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/73933.html">https://www.iso.org/standard/73933.html</a> (Part 1) · <a href="https://www.iso.org/standard/73934.html">https://www.iso.org/standard/73934.html</a> (Part 2)</li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>ISO/TS 15066 (collaborative robots)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/TS 15066:2016 — Robots and robotic devices — Collaborative robots</li>
+<li><strong>Issuing body:</strong> ISO</li>
+<li><strong>Status:</strong> Technical Specification (2016); as of Jun 2025 flagged to be revised/superseded, its content now incorporated into ISO 10218-1:2025. Still the standing reference for legacy collaborative applications.</li>
+<li><strong>What it is:</strong> Safety requirements for collaborative industrial robot systems and their work environment — detailed technical criteria including power-and-force-limiting and biomechanical/pain-threshold data for human-robot collaboration.</li>
+<li><strong>Why relevant:</strong> The authoritative source of cobot safety criteria and the bridge to ISO 10218-1:2025 that absorbs it.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/62996.html">https://www.iso.org/standard/62996.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>RED cyber (2014/53/EU delegated cyber)</h3>
+<ul>
+<li><strong>Full title:</strong> Commission Delegated Regulation (EU) 2022/30 supplementing Directive 2014/53/EU (Radio Equipment Directive) re Article 3(3)(d)(e)(f)</li>
+<li><strong>Issuing body:</strong> European Commission (delegated act under the RED)</li>
+<li><strong>Status:</strong> In force; cybersecurity requirements <strong>apply since 1 Aug 2025</strong> (postponed from 2024 by Reg. 2023/2444).</li>
+<li><strong>What it is:</strong> Activates the RED's Article 3(3) essential requirements for internet-connected radio equipment: (d) network protection, (e) personal-data/privacy safeguards, (f) fraud protection. Applies to connected radio equipment, data-processing wearables, toys/childcare radio equipment, transaction-handling equipment. Presumption of conformity via EN 18031-1/-2/-3.</li>
+<li><strong>Why relevant:</strong> Makes cybersecurity a mandatory condition of CE marking for wireless/IoT products (compliance vs EN 18031).</li>
+<li><strong>Official link:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0030">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R0030</a></li>
+<li><strong>Summary link:</strong> n/a (EUR-Lex text is free)</li>
+</ul>
+<h3>CSA Z432 (Canada machine safeguarding)</h3>
+<ul>
+<li><strong>Full title:</strong> CSA Z432:23 — Safeguarding of machinery</li>
+<li><strong>Issuing body:</strong> CSA Group (National Standard of Canada)</li>
+<li><strong>Status:</strong> In force; fourth edition 2023 (supersedes 2016/2004/1994).</li>
+<li><strong>What it is:</strong> Requirements for design, manufacture (incl. rebuild), installation, maintenance, operation and safeguarding of industrial machinery. The 2023 edition is structured around the hierarchy of controls and aligns with ISO standards and ANSI B11.19.</li>
+<li><strong>Why relevant:</strong> The primary Canadian machine-safeguarding standard referenced by provincial OHS regulators.</li>
+<li><strong>Official link:</strong> <a href="https://www.csagroup.org/store/product/2430287/">https://www.csagroup.org/store/product/2430287/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>Ontario PSR (pre-start health &amp; safety review)</h3>
+<ul>
+<li><strong>Full title:</strong> Pre-Start Health and Safety Review — Ontario Regulation 851 (Industrial Establishments), s.7, under the Occupational Health and Safety Act</li>
+<li><strong>Issuing body:</strong> Government of Ontario / Ministry of Labour, Immigration, Training and Skills Development</li>
+<li><strong>Status:</strong> In force (s.7 as amended, e.g. O. Reg. 434/21).</li>
+<li><strong>What it is:</strong> Requires a PSR — by a professional engineer or qualified person — before a new/modified apparatus, structure, protective element or process is first operated, where a listed provision applies. A written, engineer-sealed report identifies compliance measures; equipment must not be used until the review is complete and the report provided to the JHSC.</li>
+<li><strong>Why relevant:</strong> A legally mandated, engineer-sealed gate before machinery can run in Ontario — a core recurring deliverable for Ontario manufacturers.</li>
+<li><strong>Official link:</strong> <a href="https://www.ontario.ca/laws/regulation/900851">https://www.ontario.ca/laws/regulation/900851</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<hr>
+<h2>7 · Product cybersecurity</h2>
+<h3>EU CRA (Cyber Resilience Act, Annex I)</h3>
+<ul>
+<li><strong>Full title:</strong> Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements (Cyber Resilience Act)</li>
+<li><strong>Issuing body:</strong> European Parliament &amp; Council</li>
+<li><strong>Status:</strong> In force; main obligations apply <strong>11 Dec 2027</strong>; Art.14 reporting (exploited vulnerabilities/severe incidents) from <strong>11 Sep 2026</strong>; conformity-body notification from 11 Jun 2026.</li>
+<li><strong>What it is:</strong> Horizontal EU regulation setting mandatory cybersecurity requirements for all products with digital elements (HW/SW), backed by CE marking. <strong>Annex I</strong> = essential requirements: Part I security properties (secure-by-design/default, minimised attack surface, no known exploitable vulns at release, security updates) and Part II vulnerability handling (SBOM, coordinated disclosure, timely free updates). Plus ENISA/CSIRT incident reporting.</li>
+<li><strong>Why relevant:</strong> CRA conformity/CE marking becomes a mandatory market-access requirement for connected products.</li>
+<li><strong>Official link:</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847</a></li>
+<li><strong>Summary link:</strong> <a href="https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act">https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act</a></li>
+</ul>
+<h3>CCSPA (Canada) ⚠ (recent legislative status)</h3>
+<ul>
+<li><strong>Full title:</strong> Critical Cyber Systems Protection Act</li>
+<li><strong>Issuing body:</strong> Government of Canada (Parliament)</li>
+<li><strong>Status:</strong> Originally Bill C-26 (died on the Order Paper); reintroduced as <strong>Bill C-8</strong>, reported Royal Assent <strong>15 Jun 2026</strong>; operator obligations phase in by Governor-in-Council order and regulations. <em>(Recent — re-check.)</em></li>
+<li><strong>What it is:</strong> Framework protecting "critical cyber systems" across four federally regulated sectors (telecom, finance, energy, transportation). Designated operators must establish a cyber security program, mitigate supply-chain/third-party risk, report incidents to the Canadian Centre for Cyber Security, and comply with cyber security directions; enforced via monetary penalties.</li>
+<li><strong>Why relevant:</strong> Operators and suppliers in Canada's critical sectors need compliant cyber programs and incident-reporting under a new mandatory regime.</li>
+<li><strong>Official link:</strong> <a href="https://www.parl.ca/legisinfo/en/bill/45-1/c-8">https://www.parl.ca/legisinfo/en/bill/45-1/c-8</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.publicsafety.gc.ca/cnt/trnsprnc/brfng-mtrls/prlmntry-bndrs/20250226-1/07-en.aspx">https://www.publicsafety.gc.ca/cnt/trnsprnc/brfng-mtrls/prlmntry-bndrs/20250226-1/07-en.aspx</a></li>
+</ul>
+<h3>ISO/IEC 29147 (vulnerability disclosure)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/IEC 29147:2018 — Information technology — Security techniques — Vulnerability disclosure</li>
+<li><strong>Issuing body:</strong> ISO/IEC JTC 1</li>
+<li><strong>Status:</strong> Published; Edition 2 (2018).</li>
+<li><strong>What it is:</strong> Requirements/recommendations for how vendors receive information about potential product vulnerabilities and disclose resolution information to users — the external-facing side of vulnerability management (receiving capability, report handling, advisories).</li>
+<li><strong>Why relevant:</strong> Helps manufacturers establish a compliant coordinated vulnerability disclosure process (increasingly demanded by the EU CRA).</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/72311.html">https://www.iso.org/standard/72311.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>ISO/IEC 30111 (vulnerability handling)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/IEC 30111:2019 — Information technology — Security techniques — Vulnerability handling processes</li>
+<li><strong>Issuing body:</strong> ISO/IEC JTC 1</li>
+<li><strong>Status:</strong> Published; Edition 2 (2019).</li>
+<li><strong>What it is:</strong> The internal processes to investigate, triage and resolve potential product vulnerabilities — the internal counterpart to ISO/IEC 29147, covering intake through remediation.</li>
+<li><strong>Why relevant:</strong> Complements 29147 for the end-to-end vulnerability-management capability now expected of manufacturers.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/69725.html">https://www.iso.org/standard/69725.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>SBOM — CycloneDX / SPDX</h3>
+<ul>
+<li><strong>Full title:</strong> OWASP CycloneDX (Bill of Materials standard) and SPDX — System Package Data Exchange (ISO/IEC 5962:2021)</li>
+<li><strong>Issuing body:</strong> CycloneDX — OWASP Foundation; SPDX — The Linux Foundation (ISO/IEC 5962:2021)</li>
+<li><strong>Status:</strong> Both actively maintained and in wide use; SPDX is a published international standard.</li>
+<li><strong>What it is:</strong> Two leading machine-readable Software Bill of Materials formats — an inventory of components, libraries and dependencies in software. CycloneDX is a full-stack BOM standard (also SaaS/hardware/VEX); SPDX communicates components, licenses and security references. Support vulnerability tracking, license compliance and supply-chain transparency.</li>
+<li><strong>Why relevant:</strong> SBOMs are becoming mandatory (EU CRA Annex I, US federal procurement) — help clients generate/manage them in a recognized format.</li>
+<li><strong>Official link:</strong> <a href="https://cyclonedx.org/">https://cyclonedx.org/</a> · <a href="https://spdx.dev/">https://spdx.dev/</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>NIST CSF 2.0</h3>
+<ul>
+<li><strong>Full title:</strong> The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)</li>
+<li><strong>Issuing body:</strong> NIST</li>
+<li><strong>Status:</strong> Published 26 Feb 2024 (version 2.0).</li>
+<li><strong>What it is:</strong> Voluntary, outcome-based framework to understand, assess, prioritize and communicate cybersecurity risk. v2.0 organizes outcomes under six Functions — Govern, Identify, Protect, Detect, Respond, Recover — plus Tiers and Profiles. Descriptive of outcomes, not prescriptive of controls.</li>
+<li><strong>Why relevant:</strong> A widely adopted baseline to structure client cybersecurity risk-management programs and map to other regulations.</li>
+<li><strong>Official link:</strong> <a href="https://www.nist.gov/cyberframework">https://www.nist.gov/cyberframework</a></li>
+<li><strong>Summary link:</strong> <a href="https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final">https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final</a></li>
+</ul>
+<h3>NIST SP 800-171 (CUI protection)</h3>
+<ul>
+<li><strong>Full title:</strong> NIST SP 800-171 Revision 3 — Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations</li>
+<li><strong>Issuing body:</strong> NIST</li>
+<li><strong>Status:</strong> Revision 3 published May 2024 (supersedes Rev.2 of Jan 2021).</li>
+<li><strong>What it is:</strong> Recommended security requirements to protect the confidentiality of Controlled Unclassified Information (CUI) in nonfederal systems — for system components that process/store/transmit CUI, used in federal contracts. SP 800-171A gives assessment procedures.</li>
+<li><strong>Why relevant:</strong> Any US federal (esp. defense) supply-chain org handling CUI must implement these — core input to CMMC.</li>
+<li><strong>Official link:</strong> <a href="https://csrc.nist.gov/pubs/sp/800/171/r3/final">https://csrc.nist.gov/pubs/sp/800/171/r3/final</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>CMMC (US defense supply-chain) ⚠ (Phase II suspended)</h3>
+<ul>
+<li><strong>Full title:</strong> Cybersecurity Maturity Model Certification (CMMC) Program</li>
+<li><strong>Issuing body:</strong> US Department of Defense (DoD CIO)</li>
+<li><strong>Status:</strong> Established by 32 CFR Part 170; Phase 1 began 10 Nov 2025. <strong>Phase II requirements suspended 13 Jul 2026 pending review</strong>; Phase I self-assessment remains; DFARS 252.204-7012 safeguarding continues. <em>(Recent — re-check.)</em></li>
+<li><strong>What it is:</strong> Tiered program requiring defense contractors to demonstrate cybersecurity maturity as a condition of DoD contracts. Level 1 (basic FCI safeguarding, 15 requirements, annual self-assessment); Level 2 (CUI, the 110 NIST SP 800-171 requirements, self- or third-party assessed); Level 3 (higher protection). Results recorded in SPRS.</li>
+<li><strong>Why relevant:</strong> Defense-industrial-base suppliers need help meeting SP 800-171 and preparing for CMMC assessment.</li>
+<li><strong>Official link:</strong> <a href="https://dodcio.defense.gov/CMMC/">https://dodcio.defense.gov/CMMC/</a></li>
+<li><strong>Summary link:</strong> <a href="https://dodcio.defense.gov/cmmc/About/">https://dodcio.defense.gov/cmmc/About/</a></li>
+</ul>
+<h3>Def Stan 05-138 (UK MoD cyber supplier assurance)</h3>
+<ul>
+<li><strong>Full title:</strong> Defence Standard 05-138, Issue 4 — Cyber Security for Defence Suppliers</li>
+<li><strong>Issuing body:</strong> UK MoD</li>
+<li><strong>Status:</strong> Issue 4 first published 23 May 2024; page updated Dec 2025.</li>
+<li><strong>What it is:</strong> Defines the cyber security measures a supplier must have at each of five cyber risk levels (Not Applicable → Very High), used to manage cyber risk across the MoD supply chain; applies to MoD procurements, suppliers and subcontractors, alongside the DCPP risk-assessment process.</li>
+<li><strong>Why relevant:</strong> Suppliers bidding for/holding UK MoD contracts must meet the controls required at their assessed risk level.</li>
+<li><strong>Official link:</strong> <a href="https://www.gov.uk/government/publications/cyber-security-for-defence-suppliers-def-stan-05-138-issue-4">https://www.gov.uk/government/publications/cyber-security-for-defence-suppliers-def-stan-05-138-issue-4</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>Cyber Essentials (UK)</h3>
+<ul>
+<li><strong>Full title:</strong> Cyber Essentials (and the audited variant, Cyber Essentials Plus)</li>
+<li><strong>Issuing body:</strong> UK National Cyber Security Centre (NCSC); delivered by IASME</li>
+<li><strong>Status:</strong> Active government-backed certification scheme.</li>
+<li><strong>What it is:</strong> The UK Government's minimum recommended cyber security standard, aligned to five technical controls preventing common internet threats: firewalls, secure configuration, security update management, user access control, malware protection. Cyber Essentials is self-assessed; Cyber Essentials Plus adds an independent technical audit.</li>
+<li><strong>Why relevant:</strong> A widely required baseline (incl. some UK government contracts) clients need to achieve/maintain.</li>
+<li><strong>Official link:</strong> <a href="https://www.ncsc.gov.uk/cyberessentials/overview">https://www.ncsc.gov.uk/cyberessentials/overview</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<hr>
+<h2>8 · AI assurance</h2>
+<h3>EU AI Act</h3>
+<ul>
+<li><strong>Full title:</strong> Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)</li>
+<li><strong>Issuing body:</strong> European Parliament &amp; Council</li>
+<li><strong>Status:</strong> In force (entered into force 1 Aug 2024). Staggered application: prohibited practices + AI-literacy from 2 Feb 2025; GPAI + governance from 2 Aug 2025; general applicability 2 Aug 2026 (incl. transparency, Annex III high-risk); product-embedded high-risk phasing to 2 Aug 2027.</li>
+<li><strong>What it is:</strong> The first comprehensive horizontal AI law. Risk-based: unacceptable-risk (prohibited), high-risk (conformity assessment, risk management, data governance, human oversight, logging, CE-type obligations), limited-risk (transparency), minimal-risk. Distinct regime for general-purpose AI models.</li>
+<li><strong>Why relevant:</strong> Guides makers of AI-enabled safety-critical products through high-risk conformity assessment and CE-marking.</li>
+<li><strong>Official link:</strong> <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng</a></li>
+<li><strong>Summary link:</strong> <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a></li>
+</ul>
+<h3>ISO/IEC TR 5469 (AI in functional safety)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/IEC TR 5469:2024 — Artificial intelligence — Functional safety and AI systems</li>
+<li><strong>Issuing body:</strong> ISO/IEC JTC 1/SC 42</li>
+<li><strong>Status:</strong> Published 2024. <strong>A Technical Report (informative guidance), not a certifiable requirements standard.</strong></li>
+<li><strong>What it is:</strong> Describes properties, risk factors, methods and processes for using AI in functional-safety contexts — AI inside a safety function, and non-AI safety functions ensuring safety of AI-controlled equipment, with associated risk factors/methods.</li>
+<li><strong>Why relevant:</strong> The bridge between AI and classic functional-safety practice (IEC 61508 / ISO 26262).</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/81283.html">https://www.iso.org/standard/81283.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>ISO/IEC 23894 (AI risk management)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/IEC 23894:2023 — Information technology — Artificial intelligence — Guidance on risk management</li>
+<li><strong>Issuing body:</strong> ISO/IEC JTC 1/SC 42</li>
+<li><strong>Status:</strong> Published 2023 (Edition 1).</li>
+<li><strong>What it is:</strong> Guidance on managing AI-specific risk for organizations that develop/produce/deploy/use AI — integrating risk management into AI activities, with processes aligned to the ISO 31000 framework.</li>
+<li><strong>Why relevant:</strong> A recognized, structured AI-risk-management methodology to underpin EU AI Act high-risk assessments and safety cases.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/77304.html">https://www.iso.org/standard/77304.html</a></li>
+<li><strong>Summary link:</strong> n/a</li>
+</ul>
+<h3>ISO/IEC 42001 (AI management system)</h3>
+<ul>
+<li><strong>Full title:</strong> ISO/IEC 42001:2023 — Information technology — Artificial intelligence — Management system</li>
+<li><strong>Issuing body:</strong> ISO/IEC JTC 1/SC 42</li>
+<li><strong>Status:</strong> Published 2023 (Edition 1).</li>
+<li><strong>What it is:</strong> The first AI management system standard (AIMS). Specifies requirements for establishing/maintaining/improving an AI Management System (Plan-Do-Check-Act) — a certifiable management-system standard (like ISO 9001/27001) covering governance, ethics, transparency and continuous learning.</li>
+<li><strong>Why relevant:</strong> The certifiable governance framework to demonstrate responsible-AI management, complementing EU AI Act compliance.</li>
+<li><strong>Official link:</strong> <a href="https://www.iso.org/standard/81230.html">https://www.iso.org/standard/81230.html</a></li>
+<li><strong>Summary link:</strong> <a href="https://www.iso.org/home/insights-news/resources/iso-42001-explained-what-it-is.html">https://www.iso.org/home/insights-news/resources/iso-42001-explained-what-it-is.html</a></li>
+</ul>
+<hr>
+<h2>9 · Process &amp; quality</h2>
+<h3>intacs-scheme assessments (SPICE / Automotive SPICE)</h3>
+<ul>
+<li><strong>Full title:</strong> International Assessor Certification Scheme e.V. (intacs) — assessor certification for SPICE / ISO/IEC 330xx (formerly 15504) and Automotive SPICE process assessments</li>
+<li><strong>Issuing body:</strong> intacs e.V. (German association); Automotive SPICE assessor certificates issued under intacs by the VDA QMC Automotive SPICE Certification Office</li>
+<li><strong>Status:</strong> Active, ongoing scheme; recognized worldwide in automotive. Tiered assessor certs (Provisional / Competent / Principal); covers Automotive SPICE v3.1 and v4.0 on ISO/IEC 330xx.</li>
+<li><strong>What it is:</strong> The international scheme defining requirements, training curricula and examinations to certify process-assessment assessors — mandatory training via registered providers, exams and documented experience, at graded competence levels for SPICE / Automotive SPICE capability assessments.</li>
+<li><strong>Why relevant:</strong> Certified assessors let FSQ perform the recognized Automotive SPICE process-capability assessments OEMs demand of software/E-E suppliers.</li>
+<li><strong>Official link:</strong> <a href="https://www.intacs.info/">https://www.intacs.info/</a></li>
+<li><strong>Summary link:</strong> <a href="https://vda-qmc.de/en/automotive-spice/automotive-spice-zertifizierung/">https://vda-qmc.de/en/automotive-spice/automotive-spice-zertifizierung/</a></li>
+</ul>
+<hr>
+<p>*58 standards · researched 2026-07-23 from issuing-body sources · links verified to resolve this</p>
+<p>session except the ⚠-flagged items above. Standards texts themselves are paywalled at ISO/IEC/</p>
+<p>RTCA/CENELEC — the linked catalogue pages are the authoritative references.*</p>
+</body></html>
