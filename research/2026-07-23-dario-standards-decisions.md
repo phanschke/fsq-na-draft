@@ -44,11 +44,13 @@ Health Canada SOR/98-282 · Health Canada PCCP · GMLP · IMDRF cyber guidance �
 - IEC 60601-1 → present as **"IEC 60601 series"**
 - intacs/SPICE → present as **"A-SPICE v3.1 and v4.0"**
 
-## ⚠ Operational: wrong email on the site
+## ⚠ Operational: use the real address to send (site addresses are anti-spam)
 The email sent to **dario.manzano@fsqexpertsna.com bounced** (550 5.1.10 RecipientNotFound).
 VERIFIED[source: scratchpad/reply_2 undeliverable, error line 56].
-Darío's correct address: **d.manzano@fsqexpertsna.com** (also d.manzano@fsq-experts.com).
-→ FSQ NA mailbox pattern is **first-initial.last@**, NOT first.last@. The team cards in
-about.html use first.last@ for everyone (dario.manzano@, matthias.groessler@, christoph.hauck@,
-filipa.campos-viola@, felix.abicht@, zhencan.xu@, nenad.asanovic@) — these are very likely all
-wrong and need correcting to the f-initial.last pattern (only Darío's is confirmed so far).
+Darío's **real** address: **d.manzano@fsqexpertsna.com** (delivery confirmed; also
+d.manzano@fsq-experts.com per his signature). Real mailbox pattern = **first-initial.last@**.
+
+The `first.last@` addresses on the about.html team cards (dario.manzano@, matthias.groessler@,
+etc.) are **intentional anti-spam** — a deliberate choice to deter spam harvesters, NOT a bug.
+**Do NOT change them.** VERIFIED[source: Peter, 2026-07-23]. Just don't reuse them for actual
+sending — use the real first-initial.last@ mailbox.
