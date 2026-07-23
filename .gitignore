@@ -1,0 +1,3 @@
+# verification artifacts (regenerable)
+.playwright-mcp/
+*-golive.png
