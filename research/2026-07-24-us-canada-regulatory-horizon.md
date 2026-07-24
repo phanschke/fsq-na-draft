@@ -30,8 +30,8 @@ Scanned 2026-07-24 (parallel agents, primary US/Canada gov sources). This comple
 - **NHTSA vehicle cyber best practices** — 2022 edition, no replacement pending. **STABLE.**
 
 ### Product cybersecurity (NIST / DoD / CISA)
-- **CMMC** — Program rule (32 CFR 170) eff. Dec 2024; DFARS eff. Nov 2025; **Phase 1 live now**, Phase 2 (C3PAO for CUI) **from ~10 Nov 2026**. → NIST SP 800-171/172. **CHANGING SOON.**
-  ⚠ **CONFLICT to resolve:** our earlier notes (research/2026-07-23 docs) said "CMMC Phase II **suspended** 13 Jul 2026 pending review." This scan found **no suspension** and a proceeding phased rollout. The two cannot both be true. **UNKNOWN[need: primary DoD/DFARS source dated after 2026-07-13 to confirm whether Phase II is suspended or proceeding].** Do not state either as fact until reconciled.
+- **CMMC — Phase II SUSPENDED (immediate, ~mid-July 2026)** by the Department of War (memo **26-P-1023**). Phase II (Level 2 **C3PAO** for CUI + Level 3) had been scheduled for **10 Nov 2026**; during the suspension only **Level 1 (Self)** and **Level 2 (Self)** apply, and contracting officers must remove higher CMMC levels from solicitations and existing contracts. The 32 CFR 170 program rule and DFARS remain, but the Phase II gate is **paused pending review**. → NIST SP 800-171/172. **WATCH (paused).**
+  ✅ **CONFLICT RESOLVED (2026-07-24):** the 2026-07-23 note ("Phase II suspended") was CORRECT; this scan's earlier "no suspension / Phase 2 from Nov 2026" was WRONG (it relied on a pre-suspension secondary source, Baker Tilly). Confirmed via DoD **primary domains** business.defense.gov + dodcio.defense.gov (memo 26-P-1023) — capture: scratchpad/cmmc-status-primary-source.txt. Exact memo **day** UNKNOWN (verbatim PDF Akamai-blocked to all fetchers; "~mid-July 2026 / 13 Jul" per the DoD pages).
 - **NIST SP 800-171 Rev 3 (May 2024)** final, but CMMC still contractually references **Rev 2** — Rev 3 adoption pending. **WATCH.**
 - **CISA 2025 SBOM Minimum Elements** — draft, comment closed Oct 2025, final revision pending. **CHANGING SOON.**
 - **NIST CSF 2.0** — current, no successor. **STABLE.**
@@ -79,6 +79,6 @@ Scanned 2026-07-24 (parallel agents, primary US/Canada gov sources). This comple
 The NA regulatory horizon is **as active as the EU one** and closer to home: **FDA** QMSR + AI-device guidance, **NHTSA** AV framework, **CMMC** phases, **CCSPA now law** (rail in scope), **Health Canada** MDR amendments + MLMD/PCCP. Two things to note vs the site content: (1) Canada's vehicle-cyber regime is still **voluntary** (matches the "export-market clock" framing already on the Automotive page); (2) **AIDA is dead** — Canada has no binding AI law right now, only the voluntary code.
 
 ## Provenance caveats
-- **CMMC suspension vs proceeding** — unresolved conflict, see ⚠ above. Highest-priority item to confirm.
+- **CMMC** — conflict RESOLVED 2026-07-24: Phase II **is suspended** (confirmed via DoD primary domains, memo 26-P-1023). Only the exact memo day remains UNKNOWN (Akamai-blocked verbatim PDF).
 - Several canada.ca gov pages 403'd automated fetch; CCSPA dates corroborated via BLG/Osler (agree on substance, differ 1 day on assent). US CMMC phase dates partly via Baker Tilly (secondary) quoting the FR rules.
 - US AI EO numbers/dates (14179, 14365) and NHTSA AV-STEP withdrawal read off whitehouse.gov / federalregister.gov this session.
