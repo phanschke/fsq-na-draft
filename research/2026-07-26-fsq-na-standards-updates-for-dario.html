@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FSQ NA — standards pending-changes review</title>
+<style>
+ body{font-family:Segoe UI,Arial,sans-serif;color:#1a1a1a;line-height:1.5;max-width:900px;margin:24px auto;padding:0 18px;}
+ h1{font-size:22px;color:#0d3d2a;} h2{font-size:18px;margin-top:26px;padding-bottom:4px;border-bottom:1px solid #ddd;}
+ .r{color:#a12; } .o{color:#b5651d;} .y{color:#8a7d00;} .g{color:#0d6a3f;}
+ table{border-collapse:collapse;width:100%;margin:10px 0;} th,td{border:1px solid #ddd;padding:6px 8px;text-align:left;font-size:14px;vertical-align:top;}
+ th{background:#f4f4f4;} li{margin:4px 0;} a{color:#1155cc;} .cav{background:#fff8e1;border-left:3px solid #f0ad4e;padding:8px 12px;font-size:13px;}
+ code{background:#f2f2f2;padding:0 3px;border-radius:2px;}
+</style></head><body>
+
+<h1>FSQ NA website — standards "pending changes" review</h1>
+<p><strong>Scope:</strong> every standard currently shown on the FSQ NA go-live site
+(<a href="https://phanschke.github.io/fsq-na-draft/">phanschke.github.io/fsq-na-draft</a>) — both the
+original FSQ content and the standards recently added to the Services "standards wall." Reviewed
+2026-07-24/26 from issuing-body and committee sources. <strong>Please read the confidence caveats at
+the end</strong> — some dates are from standards resellers/aggregators and should be confirmed before
+external use.</p>
+
+<h2 class="r">🔴 Already superseded / out of date on the site</h2>
+<p>These chips show a designation that a newer edition has replaced. Worth updating:</p>
+<table>
+<tr><th>On the site</th><th>Now</th><th>Confidence</th></tr>
+<tr><td>ARP 4754A</td><td><strong>ARP4754B</strong> (Dec 2023) supersedes it</td><td>High (SAE/ANSI)</td></tr>
+<tr><td>ARP 4761</td><td><strong>ARP4761A</strong> (Dec 2023) supersedes it</td><td>High (SAE/ANSI)</td></tr>
+<tr><td>FDA QSR</td><td>Replaced by the <strong>QMSR</strong> (21 CFR 820), effective <strong>2 Feb 2026</strong> (adopts ISO 13485:2016)</td><td>High (fda.gov)</td></tr>
+<tr><td>IEC TR 62380</td><td><strong>Withdrawn 2017</strong>, replaced by IEC 61709:2017</td><td>High (iec.ch)</td></tr>
+<tr><td>DO-326A / ED-202A</td><td><strong>DO-326B / ED-202B</strong> (Oct 2024) supersedes it (note: EASA AMC still cites A)</td><td>High (EUROCAE/RTCA)</td></tr>
+<tr><td>TS 50701</td><td>Being superseded by the international <strong>IEC 63452</strong> (in development)</td><td>Med</td></tr>
+<tr><td>EN 50129</td><td><strong>EN 50129:2026</strong> new edition (~Jul 2026) supersedes 2018</td><td>Med ⚠ confirm on CENELEC</td></tr>
+<tr><td>EN 50159</td><td><strong>EN 50159:2026</strong> new edition (~Jul 2026) supersedes 2010</td><td>Med ⚠ confirm on CENELEC</td></tr>
+<tr><td>EN 50155</td><td><strong>EN 50155:2026</strong> new edition (~May 2026) supersedes 2021</td><td>Med ⚠ confirm on CENELEC</td></tr>
+</table>
+
+<h2 class="o">🟠 Changing soon (new edition / rule within ~12 months)</h2>
+<ul>
+<li><strong>ISO 9001 → ISO 9001:2026</strong> (DIS out; final ~Sep 2026). This pulls <strong>EN 9100 → IA9100A</strong> (~early 2027) and <strong>IATF 16949</strong> (new ed. ~2027) along with it.</li>
+<li><strong>IEC 61508 → Edition 3</strong> (~early 2027) — the parent functional-safety standard.</li>
+<li><strong>IEC 62304 → Edition 2</strong> (~2026): widens to <em>all</em> health software, replaces A/B/C classes with two rigour levels, adds an AI/ML lifecycle.</li>
+<li><strong>ISO 12100 → Edition 2</strong> (at Draft International Standard — "within coming months").</li>
+<li><strong>IEC 63187-1</strong> (defence system safety; on site as IEC TR 63187) — first edition scheduled ~Sep 2026.</li>
+<li><strong>IEC 62443 series</strong> — active -4-1/-4-2 amendments + new parts, aligning to the EU Cyber Resilience Act.</li>
+<li><strong>TISAX / VDA-ISA → ISA2027</strong> catalogue (effective for assessments ordered from 1 Jan 2027).</li>
+<li><strong>EU Machinery Regulation 2023/1230</strong> — applies 20 Jan 2027 (harmonised-standards list expected end-2026).</li>
+<li><strong>EASA CS-23 / CS-25 / SC-VTOL / SORA</strong> — continuous amendments (CS-23 Amdt 6, May 2026; SORA 2.5, Sept 2025).</li>
+<li><strong>EASA AI Concept Paper → Issue 3</strong> (consultation closes 12 Aug 2026; moving toward binding AMC).</li>
+<li><strong>IEC 63452</strong> (rail cybersecurity) — first edition expected ~2027.</li>
+<li><strong>ISO 10218-1/-2:2025</strong> — already published (Ed 3), absorbing ISO/TS 15066's cobot content.</li>
+</ul>
+
+<h2 class="y">🟡 Watch (revision active but further out, or pending regulation)</h2>
+<ul>
+<li>ISO 26262 → Edition 3 (early Working Draft); ISO/SAE 21434 (under systematic review); ISO 21448 SOTIF (flagged "to be revised").</li>
+<li>UNECE R155 / R156 (active amendments; R156 new 01-series); ISO 25119 → Ed 3.</li>
+<li>DO-254 → DO-254A (pub ~Dec 2027); DO-178C gains a new DO-395 COTS/open-source supplement.</li>
+<li>ISO 13849 (Part 2 revision + planned merge); IEC 62061 (Amendment 2, 2026); MIL-STD-882E → MIL-STD-882F (draft, no date).</li>
+<li>EN 50126 (A1:2024 + draft -4/-5 parts); EN 50716 (prA1:2026 amendment).</li>
+<li>ISO/PAS 8800 (PAS → future full IS); ANSI/UL 4600 (revision in committee); ISO/IEC TR 5469 → normative successor ISO/IEC TS 22440.</li>
+<li>EU MDR 2017/745 (Commission revision proposal, 16 Dec 2025); MDCG 2019-16 (affected by that revision); IEC 60601-1 → Edition 4 (early).</li>
+<li>NIS2 (national transposition still completing); ISO/IEC 23894 & 42001 (text stable; EU AI Act harmonised-standards alignment ~Q4 2026).</li>
+<li>Automotive SPICE — v4.0 current, <strong>v3.1 sunsetting</strong> (assessors must upgrade); new A-SPICE for Cybersecurity v2.0 (2025).</li>
+</ul>
+
+<h2 class="g">🟢 Stable (re-confirmed, no active change)</h2>
+<ul>
+<li>ISO 13485, ISO 14971, IEC 62366-1 (all re-confirmed on systematic review), ISO/IEC 27001:2022 (+Amd 1:2024), ISO/IEC/IEEE 15288:2023.</li>
+<li>DO-331, DO-278A, Def Stan 00-56, MDCG's underlying standards, CE / LVD 2014/35 / EMC 2014/30 (directives themselves), SN 29500.</li>
+<li>MDCG 2019-16, ISO 60601-4-5, ISO/IEC 42001 texts unchanged (watched only for external regulatory anchoring).</li>
+</ul>
+
+<h2>Confidence &amp; provenance caveats</h2>
+<div class="cav">
+ISO/IEC official pages blocked our automated access on several items, so a number of dates/stage
+codes came from <strong>standards resellers/aggregators (iteh.ai, genorma) or registrar/committee
+blogs</strong>. <strong>Confirm on the issuing body before quoting externally:</strong> EN
+50129:2026 / EN 50159:2026 / EN 50155:2026 (CENELEC), IEC 62443 2026 edition dates, ISO 9001:2026
+timing, IATF 16949 / IA9100 timing, UNECE R155/R156 amendment dates.
+<strong>Primary-source solid:</strong> IEC TR 62380 withdrawn, ARP4754B / ARP4761A, FDA QSR→QMSR,
+ISO 13485/14971/62366-1 stages, EASA CS amendments, TISAX ISA2027, EU Machinery Regulation dates,
+DO-326B / ED-202B.
+</div>
+
+</body></html>
