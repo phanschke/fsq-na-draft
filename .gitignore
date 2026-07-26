@@ -1,3 +1,5 @@
 # verification artifacts (regenerable)
 .playwright-mcp/
 *-golive.png
+.firecrawl/
+sc216.pdf
